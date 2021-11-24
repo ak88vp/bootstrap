@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tiến Dũng</title>
+</head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Dancing+Script&family=Pacifico&display=swap" rel="stylesheet">
+<style>
+    .prf{
+        background: url("https://i.pinimg.com/originals/71/34/65/7134653c280b1d4d6ec96c7cd616c520.gif");
+        background-size: cover;
+    }
+    .stt{
+        background: url("https://images6.fanpop.com/image/photos/36900000/Sailor-Moon-sailor-moon-36963213-500-340.gif");
+        background-size: cover;
+    }
+
+
+    .box{
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+        border-radius: 50%;
+        transition: 2.5s;
+        perspective: 1000px;
+        animation-name: hinhAnh;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        -webkit-box-shadow: -1px -7px 54px -6px rgba(224,13,157,1);
+        -moz-box-shadow: -1px -7px 54px -6px rgba(224,13,157,1);
+        box-shadow: -1px -7px 54px -6px rgba(224,13,157,1);
+    }
+    .box img{
+        width: 100%;}
+    .box1{
+        width: 85px;
+        height: 85px;
+        overflow: hidden;
+        border-radius: 50%;
+    }
+     .box1 img{
+        width: 100%;
+    }.box2{
+        width: 100px;
+        height: 100px;
+        overflow: hidden;
+        border-radius: 50%;
+    }
+     .box2 img{
+        width: 100%;
+    }.box3{
+        width: 100px;
+        height: 100px;
+        overflow: hidden;
+        border-radius: 50%;
+    }
+     .box3 img{
+        width: 100%;
+    }
+     .box4 img{
+         width: 75%;
+         height: 75%;
+     }
+    .box:hover{
+        transform: rotate(360deg);
+    }
+    @keyframes hinhAnh {
+        0%{transform: rotate(0);}
+        100%{transform: rotate(360deg);}}
+    .khoangTrong{
+        height: 50px;
+    }
+    .text{
+
+        font-family: 'Comforter Brush', cursive;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Pacifico', cursive;
+    }
+    .text1{
+        color:white;
+        font-family: 'Comforter Brush', cursive;
+        font-family: 'Dancing Script', cursive;
+    }
+
+</style>
+<body>
+<center>
+    <div class="prf">
+    <div class="khoangTrong">
+    </div>
+<div class="center-fuid">
+
+  <div class="row">
+      <div class="col-3">
+          <div class="box">
+              <img src="myProfile/img/dung.jpg" >
+          </div>
+          <div class="text mt-5">
+              <h1>ẤM Kim</h1>
+
+          </div>
+      </div>
+      <div class="col-9">
+          <div class="row">
+              <div class="col-6"> <h1 class="text1"> Nguyễn Tiến Dũng</h1>
+                  <div class="button mt-5">
+                      <button type="button" class="btn btn-outline-primary">Giới Thiệu</button>
+                      <button type="button" class="btn btn-outline-secondary">Học Vấn</button>
+                      <button type="button" class="btn btn-outline-success">Ảnh</button>
+                      <button type="button" class="btn btn-outline-danger">Sự Kiện</button>
+                      <button type="button" class="btn btn-outline-warning">Bạn Bè</button>
+                  </div>
+                  <div class=" work mt-5" >
+                      <div class="text1">
+                          <h2> Đang học và làm việc tạo codegym</h2>
+                          <h3> Số 23 Lô TT 01 Ngõ 2 Hàm Nghi</h3>
+                      </div>
+
+                  </div>
+
+              </div>
+              <div class="col-6">
+                  <div>
+                      <a class="navbar-branch" href="https://www.facebook.com/" target="_blank">
+                          <img class="box1" src="myProfile/img/fb.jpg" >
+                      </a>
+                      <a class="navbar-branch" href="https://myaccount.google.com/?utm_source=OGB&tab=rk&utm_medium=act&pli=1" target="_blank">
+                          <img class="box2" src="myProfile/img/gg.jpg" >
+                      </a>
+                      <img class="box3" src="myProfile/img/twi.png">
+                  </div>
+
+                  <div class="button2 mt-5">
+                      <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false">
+                           Send message
+                      </button>
+                  </div>
+              </div>
+          </div>
+          <div class="row mt-3">
+              <div class="col-9">
+                  <nav class="nav nav-pills nav-fill">
+                      <a class="nav-link " href="#" >999 <br> Follow</a>
+                      <a class="nav-link " href="#">88<br> Following</a>
+                      <a class="nav-link active" href="#">+Follow</a>
+                  </nav>
+              </div>
+              <div class="col-3"></div>
+          </div>
+
+      </div>
+
+    </div>
+    </div>
+</div>
+    <div class="stt">
+    <div class="center-fuid">
+        <div class="row">
+            <div class="offset-2"></div>
+            <div class="col-8">
+            <div class="box4">
+                <h1>Bảng Tin Tâm Trạng </h1>
+                <div >
+                    <h6> 24/11/2021 </h6>
+                    <p>Buổi sáng của em là thịt</p>
+                    <p>Buổi sáng của anh là trứng</p>
+                    <p>Sau mỗi lần chúng ta ...</p>
+                    <p>Anh lại có nhiều nguồn cảm hứng</p>
+                    <p>Sau mỗi lần chúng ta ...</p>
+                    <p>Anh lại có nhiều nguồn cảm hứng</p>
+                    <img src="myProfile/img/girl.jpg">
+                </div>
+            </div>
+            </div>
+            <div class="offset-2"></div>
+        </div>
+    </div>
+    </div>
+</center>
+</body>
+</html>

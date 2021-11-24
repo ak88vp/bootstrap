@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .tren {
+        background: deeppink;
+        height: 250px;
+        width: 100%;
+    }
+
+    .duoi {
+        background: blueviolet;
+        height: 250px;
+        width: 100%;
+    }
+
+    .giua {
+        width: 100%;
+        height: 500px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .trai {
+        background: gold;
+        width: 20%;
+        height: 500px;
+        float: left;
+
+    }
+
+    .noidung {
+        background: blueviolet;
+        width: 55%;
+        height: 500px;
+        float: left;
+        margin-left: 2.5%;
+    }
+
+    .phai {
+        background: red;
+        width: 20%;
+        height: 500px;
+        float: left;
+        margin-left: 2.5%;
+    }
+
+    @media only  screen and(max-width: 600px) {
+        .trai {
+            display: none;
+        }
+
+        .noidung {
+            width: 70%;
+            margin-left: 3%;
+        }
+
+        .phai {
+            width: 27%;
+        }
+
+    }
+
+    @media only  screen and(max-width: 800px) {
+        .trai {
+            display: none;
+        }
+
+        .phai {
+            display: none;
+        }
+
+    }
+
+
+</style>
+<body>
+<div class="tren"></div>
+<div class="giua">
+    <div class="trai"></div>
+    <div class="noidung"></div>
+    <div class="phai"></div>
+</div>
+<div class="duoi"></div>
+</body>
+</html>
