@@ -20,6 +20,10 @@
     <style>
         .navbar {
             background: #fc6433 !important;}
+        footer{
+            background: #fc6433 !important;
+        }
+
         .navbar li a {
             color: white !important;
             font-family: 'Comforter Brush', cursive;
@@ -31,6 +35,26 @@
         .navbar li a:hover {
             color: blue !important;
         }
+        ul li{
+            list-style: none;
+            font-size: 20px;
+        }
+        .box{
+            width: 25px;
+            height: 25px;
+            overflow: hidden;
+            border-radius: 100%;
+        }
+        .box img{
+            width: 100%;
+        }
+  .noiDung1{
+      float: left;
+      margin-left:25px;
+  }
+  .nen{
+      background: #5d5858;
+  }
 
     </style>
 </head>
@@ -51,7 +75,7 @@
                     <a class="nav-link " href="http://localhost:63342/Bootstrap/myProfile/Logo.html?_ijt=sdmto0tfisslein0eir109k44t&_ij_reload=RELOAD_ON_SAVE" >Trang Chủ</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="http://localhost:63342/Bootstrap/Ak88.html?_ijt=972n47dt0maq5a8r1mp8kmq8ov&_ij_reload=RELOAD_ON_SAVE" style="color: aqua !important;" >Diễn ĐÀM</a>
+                    <a class="nav-link active" href="http://localhost:63342/Bootstrap/Ak88.html?_ijt=972n47dt0maq5a8r1mp8kmq8ov&_ij_reload=RELOAD_ON_SAVE" style="color: aqua !important;" >Diễn Đàn</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Services</a>
@@ -63,13 +87,120 @@
         </div>
     </div>
 </nav>
-<div class="container">
-    <h1>Bảng Tin</h1>
+<nav class="nen">
+<div class="container" style="background: #232121">
+    <h1 style="color: beige">Bảng Tin</h1>
     <div class="col-xs-12 col-sm-6 col-md-4 ">
         <ul>
-            <li><i class="fas fa-crown"> </i> Tuyển dụng</li>
+            <li><i class="fas fa-crown" style="color: gold"> </i><a href="#"> Tuyển Dụng</a> </li>
+        </ul>
+        <ul>
+            <li><i class="fas fa-crown" style="color: gold"> </i><a href="#"> Đánh Giá</a> </li>
+        </ul>
+        <ul>
+            <li><i class="fas fa-crown" style="color: gold"> </i><a href="#"> Kinh Nghiệm</a> </li>
         </ul>
     </div>
 </div>
+<hr class="my-4">
+<div class="centainer">
+    <div class="row">
+        <div class="offset-1 "></div>
+            <div class="col-7" style="background: #797070">
+                <div>
+                    <div class="row"> <h1>Thảo Luận</h1></div>
+                    <div class="row">
+                        <div class="box">
+                            <img src="https://i.pinimg.com/originals/eb/b4/a7/ebb4a7869f097d44a04ea08c31f2cbf2.jpg">
+                        </div>
+                        <div class="noiDung1" > <p>Sang xịn mịn ai cũng muốn đc thả tym tym tym !!! </p> </div>
+                    </div>
+                    <div class="row">
+                        <div class="box">
+                            <img src="https://st.quantrimang.com/photos/image/2021/01/18/anh-hoan-hao-1.jpg">
+                        </div>
+                        <div class="noiDung1" > <p>Thả tym lấp la lấp lánh vào story em  </p> </div>
+                    </div>
+                    <div class="row">
+                        <div class="box">
+                            <img src="https://bow101.com/wp-content/uploads/2019/02/small-branding-marketing-for-photography-business-qua%CC%89ng-ba%CC%81-thu%CC%9Bo%CC%9Bng-hie%CC%A3%CC%82u-hi%CC%80nh-cu%CC%9Bo%CC%9B%CC%81i-marketing-nga%CC%80nh-a%CC%89nh-ho%CC%A3c-nhie%CC%82%CC%81p-a%CC%89nh-bow101-Bow102-%C4%91i%CC%A3nh-hu%CC%9Bo%CC%9B%CC%81ng-nhie%CC%82%CC%81p-a%CC%89nh-nhie%CC%82%CC%81p-a%CC%89nh-studio-chu%CC%A3p-a%CC%89nh-559x506.jpg">
+                        </div>
+                        <div class="noiDung1" > <p>Đêm 7 ngày 3 ngoài ra k tính </p> </div>
+                    </div>
+                    <div class="row">
+                        <div class="box">
+                            <img src="img/am.jpg" height="960" width="720"/></div>
+                        <div class="noiDung1" > <p> Thấy bạn tôi khổ quá bạn ăn mướp đắng là khổ qua </p> </div>
+                    </div>
+                </div>
+                <hr class="my-2">
+                <div>
+                    <div class="row" > <h1>Phòng Chát</h1></div>
+                    <i class="fas fa-users" style="color: red" > </i><a href="#"> Tâm sự thầm kín</a>
+                    <br>
+                    <i class="fas fa-users" style="color: red"> </i><a href="#"> Adam và Eva</a>
+                    <br>
+                    <i class="fas fa-users" style="color: red"> </i><a href="#"> Lẩu cua </a>
+                    <br>
+                    <i class="fas fa-users" style="color: red"> </i><a href="#"> Đảo thiên đường</a>
+                    <br>
+                </div>
+            </div>
+
+            <div class="col-4" >
+                <h1 >Đăng Nhập</h1>
+                <label for="inputPassword">Tên Tài Khoản</label>
+                <input type="password" id="inputPassword" class="form-control" aria-describedby="passwordHelpBlock">
+                <label for="inputPassword5">Password</label>
+                <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+                <a href="#">Bạn đã quên mật khẩu ?
+                <br> </a>
+                <br>
+                <div class="form-group">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                        <label class="form-check-label" for="invalidCheck2">
+                         Duy trì đăng nhập
+                        </label>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-primary btn-lg"> ĐĂNG NHẬP</button>
+            </div>
+
+    </div>
+</div>
+<br>
+</nav>
+<footer>
+    <div class="container-fluid padding">
+        <div class="row text-center">
+            <div class="col-md-4">
+                <img src="img/logoak88.png" height="95" width="228"/>
+                <hr class="light">
+                <p>333-666-999</p>
+                <p>ak88@gmail.com</p>
+                <p>Số nhà 23 Lô tt01 Ngõ 2 Hàm Nghi</p>
+            </div>
+            <div class="col-md-4">
+                <p style="height: 53px"></p>
+                <h5>Giờ làm việc</h5>
+                <hr class="light">
+                <p> 11pm-7am</p>
+                <p>Mọi ngày trong tuần</p>
+            </div>
+            <div class="col-md-4">
+                <p style="height: 53px"></p>
+                <h5>Dịch vụ</h5>
+                <hr class="light">
+                <p>Tại gia</p>
+                <p>24/7 (trong khung giờ làm việc )</p>
+            </div>
+            <div class="col-12">
+                <hr class="light-100">
+                <h5 style="font-size: 60px">&copy; AK88</h5>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
